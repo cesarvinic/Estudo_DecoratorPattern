@@ -18,6 +18,6 @@ namespace DecoratorDesignPattern.Service.Decorate
         {
             string content = _message.GetContent();
             return $"Compressed({content})"; // Simulação de compressão
-        }
+        } 
     }
 }
